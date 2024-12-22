@@ -1,17 +1,12 @@
 # Recognition-Based Attendance System
 This Python-based attendance system uses OpenCV and face recognition technology to automatically log attendance. The system detects faces from a live webcam feed using OpenCV's pre-trained Haar Cascade Classifier. Once a face is detected, it generates a unique Face ID by hashing the cropped face image using SHA-256. 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Attendance System with Face Recognition</title>
+<title>Attendance System with Face Recognition</title>
 
-    <h1>Attendance System with Face Recognition</h1>
+<h1>Attendance System with Face Recognition</h1>
 
-    <p>This is a face recognition-based attendance system that uses OpenCV and Python. The system logs student attendance by detecting their faces and generating unique Face IDs. It ensures that each student is marked present only once.</p>
+<p>This is a face recognition-based attendance system that uses OpenCV and Python. The system logs student attendance by detecting their faces and generating unique Face IDs. It ensures that each student is marked present only once.</p>
 
-    <h2>Features</h2>
+<h2>Features</h2>
     <ul>
         <li>Real-time face detection using Haar Cascade Classifier</li>
         <li>Unique Face ID generation using SHA-256 hash of the face image</li>
@@ -20,7 +15,7 @@ This Python-based attendance system uses OpenCV and face recognition technology 
         <li>Automatic webcam feed closure after attendance is logged</li>
     </ul>
 
-    <h2>Technologies Used</h2>
+<h2>Technologies Used</h2>
     <ul>
         <li>Python</li>
         <li>OpenCV</li>
@@ -28,7 +23,7 @@ This Python-based attendance system uses OpenCV and face recognition technology 
         <li>SHA-256 Hashing</li>
     </ul>
 
-    <h2>How It Works</h2>
+<h2>How It Works</h2>
     <ol>
         <li>Upon running the program, the user is prompted to input their name and student ID.</li>
         <li>The webcam starts capturing frames, and faces are detected using the Haar Cascade classifier.</li>
@@ -38,7 +33,7 @@ This Python-based attendance system uses OpenCV and face recognition technology 
         <li>The webcam feed is automatically closed after the attendance is logged.</li>
     </ol>
 
-    <h2>Setup</h2>
+<h2>Setup</h2>
     <p>To run the attendance system, follow these steps:</p>
     <ol>
         <li>Install Python 3.x on your system.</li>
@@ -49,14 +44,14 @@ This Python-based attendance system uses OpenCV and face recognition technology 
         <pre><code>python attendance_system.py</code></pre>
     </ol>
 
-    <h2>CSV File Format</h2>
+<h2>CSV File Format</h2>
     <p>The attendance is stored in a CSV file, with the following format:</p>
     <pre>
     ID, Name, Face ID, Time
     12345, John Doe, a7c48f16f9d8b04c01e68b8bbcfb407617bf073710290a4d9c8328497b705b8d, 2024-12-22 10:30:00
     </pre>
 
-    <h2>License</h2>
+<h2>License</h2>
     <p>This project is open-source and available under the MIT License.</p>
 
 </body>
