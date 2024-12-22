@@ -48,11 +48,8 @@ This Python-based attendance system uses OpenCV and face recognition technology 
     <p>The attendance is stored in a CSV file, with the following format:</p>
     <pre>
     ID, Name, Face ID, Time
-    12345, John Doe, a7c48f16f9d8b04c01e68b8bbcfb407617bf073710290a4d9c8328497b705b8d, 2024-12-22 10:30:00
+    12345, Pranay Dhore, a7c48f16f9d8b04c01e68b8bbcfb407617bf073710290a4d9c8328497b705b8d, 2024-12-22 10:30:00
     </pre>
-
-<h2>License</h2>
-    <p>This project is open-source and available under the MIT License.</p>
 
 </body>
 </html>
